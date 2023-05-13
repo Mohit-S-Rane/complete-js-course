@@ -27,3 +27,20 @@ const restaurant = {
     },
   },
 };
+
+console.log('From here i can start');
+
+// text data 
+// underscore_case
+// first_name
+// Some_Variable 
+//  calculate_AGE
+// delayed_departure
+
+var str = 'underscore_case'
+
+const [first, second] = str.toLowerCase().trim().split('_')
+const output = `${first}${second.replace(second[0], second[0].toUpperCase())}`
+
+
+console.log(output);
